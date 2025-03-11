@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="evilkotti">
+    <link rel="stylesheet" href="css/efeitoselect.css">
+    <link rel="stylesheet" href="css/loginpopup.css">
+   
+    
+    <title>EatNet - Match de Receitas</title>
+
+</head>
+
+<body>
+ <!--faixa logo e botão navegação-->
+    <div id="top" style="display: inline-block; text-align: center;"> 
+        <a href="index.html"><img src="images.png/logo_eatnet.png" height="80px" style=" margin-top: 20px; " > </a><br>
+        <h1 style="color: white; display: inline-block; padding-left: 10px;">Eat<color style="color: red;">Net</color>.com</h1>
+        
+        </div>
+
+    <div>
+   
+        <a href="index.html"><button>inicio</button></a>
+      
+    </div>
+ 
+<!--sessão para pesquisar receitas-->
+<div class="container">
+    
+    <br><br> <br><br> <br><br>
+
+<!--inserir ingredientes-->
+    <form >
+        <div style="text-align: center;">
+        <h2>Insira seus ingredientes</h2>
+        <p>preencha no minimo 3 ingredientes</p>
+       
+       
+        
+        <label>ingrediente 1<input type="text" class="textmatrec" required ></label>
+        <br><br>
+        
+        <label>ingrediente 2<input type="text" class="textmatrec"  required></label>
+        <br><br>
+        
+        <label>ingrediente 3<input type="text" class="textmatrec"  required></label>
+        <br><br>
+        
+        <label>ingrediente 4<input type="text" class="textmatrec" ></label>
+        <br><br>
+        
+        <label>ingrediente 5<input type="text" class="textmatrec" ></label>
+        <br><br>
+        
+        <label>ingrediente 6<input type="text" class="textmatrec" ></label>
+      
+        <br><br> <br><br> <br><br>
+        
+<!--inserir proteinas--> 
+        <h2>Qual sua proteina ?</h2>
+        </div>
+       
+<div style="text-align: center;">
+    <label><img src="images.png/carne.png" class="imgmatrec"><input type="radio" var="proteina" name="proteina" value="carne" required> </label>
+    
+   
+<br>
+
+<label><img src="images.png/frango.png" class="imgmatrec"><input type="radio" var="proteina" name="proteina" value="frango" required> </label>
+    
+<br>
+
+<label><img src="images.png/peixe.png" class="imgmatrec"><input type="radio"var="proteina"  name="proteina" value="peixe" required> </label>
+
+<br>
+
+<label><img src="images.png/porco-assado.png" class="imgmatrec"><input type="radio" var="proteina"  name="proteina" value="porco" required> </label>
+<br>
+
+
+<br><br>
+<label><p>sem proteina, receitas vegetariana e vêganas</p><input type="radio" var="proteina" name="proteina" value="sem proteina" required></label>
+
+<script>
+  
+  if($proteina=true){
+    echo("hello, world")
+  }
+   
+
+</script>
+
+</div>
+   
+        <br><br> <br><br> <br><br>
+
+<!--inserir tempeiros-->
+   <div style="text-align: center;">
+ <h2>Escolha seus tempeiros</h2>
+<p>O tempero é opcional mas nada melhor que uma comida bem temperada</p>
+        
+        <label>ingrediente 1<input type="text" class="textmatrec" ></label>
+        <br><br>
+        
+        <label>ingrediente 2<input type="text" class="textmatrec" ></label>
+        <br><br>
+        
+        <label>ingrediente 3<input type="text" class="textmatrec" ></label>
+        <br><br>
+        
+        <label>ingrediente 4<input type="text"class="textmatrec" ></label>
+        <br><br>
+   </div>   
+   
+    
+   <br><br> <br><br> <br><br>
+    
+<!--botão enviar-->
+    <input type="submit">
+   
+    <br><br> <br><br> <br><br>
+   
+ 
+    
+    </form>
+</div>
+</body>
+
+
+
+</html>

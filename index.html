@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="evilkotti">
+    <link rel="stylesheet" href="css/efeitoselect.css">
+    <link rel="stylesheet" href="css/loginpopup.css">
+    <link rel=" stylesheet" href="loginpopup.css">
+    <link  href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/jquery-3.7.1.js"></script> 
+    
+    
+    <title>EatNet</title>
+  
+  
+
+<body>
+
+  <!--faixa do logo-->
+<div id="top" style="display: inline-block; text-align: center;"> 
+<a href="index.html"><img src="images.png/logo_eatnet.png" height="80px" style=" margin-top: 20px; " > </a><br>
+<h1 style="color: white; display: inline-block; padding-left: 10px;">Eat<color style="color: red;">Net</color>.com</h1>
+
+</div>
+<br><br>
+
+
+
+<!--tag posição menu navegaçao gruda no top -->
+<!--<div style="position: sticky; top: 10px; z-index: 99;">-->
+
+   <!--menu de navegação-->
+  <div class="container-fluid">
+    <div class="row">
+    
+      <div class="col-sm-2"><a href="MatchRec.html"><button class="menu">Match de Receita</button></a></div>
+      <div class="col-sm-2"><a href="pageblock.html"><button class="menu2">Vêganos</button></a></div>
+      <div class="col-sm-2"><a href="pageblock.html"><button class="menu2">Air Fryer</button></a></div>
+    
+    
+ 
+
+
+
+    
+      <div class="col-sm-2"><a href="pageblock.html"><button class="menu">Receitas Especiais</button></a></div>
+      <div class="col-sm-2"><a href="pageblock.html"><button class="menu2">Sobremesas</button></a></div>
+      
+   
+      <div class="col-sm-2"><a href="cadastro.html"><button style="float: right;" class="menu">cadastre-se</button></a></div>
+      
+      
+    
+    </div>
+  </div>
+  <br>
+  <button class="btnOpenModal" onclick="openModal()">login</button>
+
+</div>
+
+<br><br><br>
+
+</head>
+
+
+<!-- sistema popup de login-->
+<div class="modal-container">
+    <div class="modal">
+      
+      <hr>
+      <form style="text-align: center;">
+        <h1>Login</h1>
+           
+           <br><br>
+           <label style="color: black;">email:<input type="email"></label>
+           
+           <br><br>
+           <label style="color: black;">senha:<input type="password"></label>
+           
+           <br><br>
+           <br><br>
+    
+        </form>
+      <hr>
+      <div class="btns">
+        <button class="btnOK" onclick="closeModal()">Entrar</button>
+        <button class="btnClose" onclick="closeModal()">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <script src="#"></script>
+
+<script>
+    const modal = document.querySelector('.modal-container')
+
+function openModal() {
+  modal.classList.add('active')
+}
+
+function closeModal() {
+  modal.classList.remove('active')
+}
+</script>
+
+
+<br><br>
+
+
+<div style="color:white; margin-top: 0px; text-align: center; background-color: black; padding:20px">
+        
+        
+        
+        <!--
+        <script>
+    
+          var nome = prompt('qual seu nome?')
+          document.write(`obrigado por acessar nosso site <strong>${nome}</strong> oque iremos preparar hoje?`)
+         
+        </script>
+        </div> 
+        -->
+
+
+       
+
+       
+    <br><br><br>
+    <!--receitas economicas-->
+ 
+ 
+ <a href="ReceiEco.html"><div class="container">
+    
+    <a href="ReceiEco.html"><img src="images.png/receita_eco.png" style=" width: auto;height: 150px; padding: 40px;"></a>
+
+    <h2 >Receitas econômicas</h2>
+    <h3 >Receitinhas baratas que valem a pena fazer e experimentar!</h3>
+ <br><br>
+ <a href="ReceiEco.html"><button class="btok" >Reiceitas baixo custo </button></a>
+ 
+  </div>
+  <hr>
+
+
+  <!-- mactch de receitas -->
+
+  <a href="MatchRec.html"><div class="container1" >
+    <a href="MatchRec.html"><img src="images.png/match_receita.png" style="width: auto;height: 150px; padding: 40px;"></a>
+
+    <h2 >Descubra receitas com oque você tem na geladeira agora </h2>
+    <h3 >Diga oque tem na geladeira que nós preparamos as melhores receitas! </h3>
+
+  <br><br> 
+    <a href="MatchRec.html"><button class="btok">Match de receitas </button></a>
+  </div></a>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <hr>
+
+
+
+  <!--compartilhar receitas-->
+
+    <div class="container2">
+       <a href="CompRecei.html"><img src="images.png/compart_receita.png" style="width: auto;height: 150px; padding: 40px;"></a>
+
+    <h2>Compartilhe sua receita </h2>
+    <h3>Compartilhe aquela receita especial de familia, ou atá mesmo aquela dica de tempero! </h3>
+
+  <br><br>  
+  <a href="CompRecei.html"><button class="btok">Compartilhe sua receita </button></a>
+
+  <br><br> 
+
+
+  <br><br><br><br><br> 
+ 
+
+</div>
+
+<br><br><br><br><br> 
+<br><br><br><br><br> 
+<br><br><br><br><br> 
+<br><br><br><br><br> 
+
+<hr>
+
+
+<!--roda pé-->
+<div style="opacity: 1.0;text-align: center;" >
+<h4 style="color: white;">™Site programado por Evilkotti, plataforma desenvolvida e criada apenas para a automatização de coisas simples do dia-a-dia, não deixe a comida caseira morrer!</h4>
+
+<br>
+
+
+<!--pop-up login-->
+<dialog>
+<form id="login">
+    <h1>cadastre-se</h1>
+       <label>nome:</label>
+       <input type="text">
+       <br><br>
+       <label>email:</label>
+       <input type="email">
+       <br><br>
+       <label>senha:</label>
+       <input type="password">
+       <br><br>
+       <br><br>
+   
+     <input type="submit" style="margin-left: 100px;">
+   
+   
+    </form>
+
+
+</dialog>
+
+
+</body>
+</html>
